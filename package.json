@@ -1,0 +1,25 @@
+{
+  "name": "testudateelectron",
+  "version": "1.0.0",
+  "description": "Testin update electron",
+  "main": "main.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/NaimHamidii/electronTestUpdates.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "Naim Hamidi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.1.1",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.9"
+  }
+}
